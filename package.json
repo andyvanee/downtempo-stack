@@ -8,7 +8,7 @@
     "build:css": "npm run generate:css -- --minify",
     "build:remix": "remix build",
     "dev": "run-p dev:*",
-    "dev:css": "echo not today tailwind",
+    "dev:css": "yarn generate:css",
     "dev:remix": "cross-env NODE_ENV=development binode --require ./mocks -- @remix-run/dev:remix dev",
     "generate:css": "echo not today tailwind"
   },

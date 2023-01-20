@@ -1,3 +1,8 @@
+import { Link } from "@remix-run/react";
+
 export default function Index() {
-    return <p>Hello world, I am remix</p>
+    return <>
+        <p>Hello Remix</p>
+        <Link to="/products">View Products</Link>
+    </>
 }
