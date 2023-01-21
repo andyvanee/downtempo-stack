@@ -8,19 +8,18 @@ npx create-remix@latest --template remix-run/indie-stack
 
 ## What's in the stack
 
--   Production-ready [SQLite Database](https://sqlite.org)
--   Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
--   Code formatting with [Prettier](https://prettier.io)
--   Linting with [ESLint](https://eslint.org)
--   Static Types with [TypeScript](https://typescriptlang.org)
+- Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
+- Code formatting with [Prettier](https://prettier.io)
+- Linting with [ESLint](https://eslint.org)
+- Static Types with [TypeScript](https://typescriptlang.org)
 
 ## Development
 
--   Start dev server:
+- Start dev server:
 
-    ```sh
-    npm run dev
-    ```
+  ```sh
+  npm run dev
+  ```
 
 This starts your app in development mode, rebuilding assets on file changes.
 
